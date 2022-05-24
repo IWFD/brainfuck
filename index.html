@@ -10,7 +10,7 @@
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.css'>
     <link rel="stylesheet" href="./style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Convert between text and brainfuck.">
+    <meta name="description" content="Compilador light para o BrainFuck.">
     <meta name="keywords" content="israelwilson, israel duarte, texto, brainfuck, java script, js, hack, bf, piratiandooplaneta, hacktheworld">
     <meta name="author" content="Israel Wilson Duarte">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -65,5 +65,10 @@
     <script src="script.js" type="module"></script>
 
 </body>
+<script>
+document.oncontextmenu = document.body.oncontextmenu = function() {
+return false;
+}
+</script>
 
 </html>
