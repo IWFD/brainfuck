@@ -1,0 +1,124 @@
+html {
+    width: 100%;
+    height: 100%;
+    background-color: #f8f8f8;
+    display: inline-block;
+}
+
+body {
+    width: 100%;
+    display:inline-block;
+    
+} 
+
+ html,
+body {
+    margin: 0px;
+    padding: 0px;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+   
+}     
+
+body {
+    background-color: #f8f8f8;
+} 
+
+.hello {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.uk-form-width-large {
+    width: 90vw ;
+    max-width: 350px;
+}
+
+.uk-form-width-large textarea,
+.uk-form-width-large input {
+    border-radius: 5px !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.uk-input:focus,
+.uk-select:focus,
+.uk-textarea:focus {
+    outline: none;
+    background-color: #fff;
+    color: #666;
+}
+
+.uk-input.text:focus {
+    border-color: #fa7676;
+}
+
+.uk-input.bf:focus {
+    border-color: #329cfc;
+}
+
+.uk-h4,
+h4 {
+    margin-bottom: 0;
+}
+
+.main-form {
+    background: #fff;
+    padding: 4vh 3vw;
+    border-radius: 5px 5px 4px 4px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 100px;
+   
+}
+@media screen and (max-height:500px){
+ .main-form{
+  display: inline-block;
+  margin: 60px 0;
+  }
+  html,
+body{
+    margin-bottom: 120px;
+}
+}
+.uk-form-icon {
+    pointer-events: auto !important;
+    cursor: pointer;
+  }
+
+.uk-mr-custom {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+i.uk-form-icon.cs {
+    font-style: initial;
+    color: #fa7676 !important;
+}
+i.uk-form-icon.ft {
+    font-style: initial;
+    color: #329cfc !important;
+}
+.uk-container{
+    margin-bottom: 40px;
+}
+.flip {
+    padding-right: 40px;
+}
+
+.p {
+    margin: 1vh 1vw 1vw 1vh;
+    opacity: 0.5;
+}
+
+
+#delete {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 15px;
+    -webkit-text-stroke: 2px white;
+}

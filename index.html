@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>.: Fudedor de Cérebros :.</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/css/uikit.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.0/css/font-awesome.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.css'>
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Convert between text and brainfuck.">
+    <meta name="keywords" content="israelwilson, israel duarte, texto, brainfuck, java script, js, hack, bf, piratiandooplaneta, hacktheworld">
+    <meta name="author" content="Israel Wilson Duarte">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="main-form uk-position-center uk-container-center align-center text-center">
+        <i class="fa fa-refresh fa-2x" id="delete"></i>
+        <img src="images/brain.png" width="100px" alt="logo">
+        <div class="hello">
+            <h4>
+                <span>Entendendo o Brainfuck</span>
+            </h4>
+            <small>& adorando o caos civilizado.</small>
+        </div>
+        <form class="uk-form-width-large">
+            <fieldset class="uk-fieldset">
+                <div class="uk-mr-custom">
+                    <div class="uk-inline">
+                        <i id="explainText" class="uk-form-icon cs">Aa</i>
+                        <input id="text" class="uk-input uk-form-width-large text flip" type="text" placeholder="Texto">
+                        <i id="cpText" class="uk-form-icon uk-form-icon-flip cs">
+                            <i class="fa fa-clone"></i>
+                        </i>
+                    </div>
+                </div>
+                <div class="uk-mr-custom arrows">
+                    <div class="uk-inline">
+                        <img src="https://lh3.googleusercontent.com/u/0/d/1mJbBUpNUWNaXd2OS2Ss_Q7cuvNA8n3WP=s1600-k-iv1"
+                            width="30px" alt="arrows">
+                    </div>
+                </div>
+                <div class="uk-mr-custom">
+                    <div class="uk-inline">
+                        <i id="explainBF" class="uk-form-icon ft">++></i>
+                        <input id="bf" class="uk-input uk-form-width-large bf flip" type="text" placeholder="Brainfuck">
+                        <i id="bfText" class="uk-form-icon uk-form-icon-flip ft">
+                            <i class="fa fa-clone"></i>
+                        </i>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+        <div class="uk-card-footer">
+            <p class="p">Criado com ❤ por Israel Duarte.</p>
+        </div>
+    </div>
+    
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.js"></script>
+    <script src="script.js" type="module"></script>
+
+</body>
+
+</html>
