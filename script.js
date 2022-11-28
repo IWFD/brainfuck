@@ -14,7 +14,7 @@ function copy(value) {
     $temp.remove();
     new Noty({
         theme: 'metroui',
-        text: 'Copied!',
+        text: 'Copiado!',
         timeout: 1500,
         progressBar: false,
         type: 'success',
